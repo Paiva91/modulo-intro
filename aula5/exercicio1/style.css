@@ -1,0 +1,26 @@
+/* SELETOR UNIVERSAL (*), EXATAMENTE O QUE O NOME DESCREVE */
+* {
+    margin: 0;
+}
+
+/* CSS EXTERNO */
+h2, p {
+    color: white;
+    background-color: black;
+    font-size: 20px;
+}
+
+/* SELETOR POR ID(#), UNICO, IRREPLICAVEL*/
+#page-header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: turquoise;
+}
+/* SELETOR POR CLASSE(.), VARIOS ELEMENTOS COM A MESMA CLASSE, COMPARTILHAVEL*/
+.content {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: maroon;
+}
+/* SELETOR POR DIVISÃO (DIVISÃO.CLASSE(EXEMPLO)), SELECIONA UMA FATIA DO CORPO DO HTML E APLICA O CÓDIGO CONFORME EXEMPLIFICADO*/
+article.content{
+    color:goldenrod
+}
