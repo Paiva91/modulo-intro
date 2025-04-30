@@ -1,0 +1,50 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: whitesmoke ;
+    margin: 0;
+}
+
+#header{
+    background-color: #444;
+    color: #ccc;
+    height: 6vh;
+    text-align: center;
+    justify-content: center;
+    padding-top: 2vh;
+}
+
+.merchandise{
+    border-radius: 9px;
+    border: 2px solid #ccc;
+    width: 30vh;
+    height: 30vh;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.merch-image{
+    width: 50%;
+    height: auto;
+    margin: 20px;
+    border-radius: 9px;
+    border: 2px solid #ccc;
+}
+
+.price{
+    padding: 1rem;
+}
+
+button {
+    border-radius: 6px;
+    background-color: palevioletred;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.button.save:hover{
+    background-color: rgb(212, 71, 118);
+}
+
+.button.save:active{
+    background-color: rgb(212, 16, 82) ;
+}
